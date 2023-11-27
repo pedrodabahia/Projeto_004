@@ -18,7 +18,7 @@
                     <div class="logo">  
                         <h1>Danki Code</h1>
                     </div>
-                    <nav>
+                    <nav class="desktop">
                         <ul>
                             <li>HOME</li>
                             <li>SOBRE</li>
@@ -26,6 +26,14 @@
                         </ul>
                     </nav>
                     <div class="clear"></div>
+                    <nav class="mobile">
+                        <i class="fa-solid fa-bars"></i>
+                        <ul>
+                            <li>HOME</li>
+                            <li>SOBRE</li>
+                            <li>CONTATO</li>
+                        </ul>
+                    </nav>
             </header>
             <div class="informações">
                 
@@ -105,9 +113,9 @@
               <form class="form-contato">
                 <hr>
                 <h1>Entre em contato</h1>
-                <input type="text">
-                <input type="text">
-                <textarea class="areaTexto"></textarea>
+                <input placeholder="Insira seu Nome ..." type="text">
+                <input placeholder="Insira seu e-mail ..." type="text">
+                <textarea placeholder="Deixe sua Mensagem ..." class="areaTexto"></textarea>
                 <input type="submit" name="Enviar" >
               </form>      
             </div>
@@ -117,7 +125,7 @@
               <div class="double-cards">
                <div class="card-box">
                 <div class="informações-user">
-                <dir class="circle_user"></dir><div class="info_user">
+                <div class="circle_user"></div><div class="info_user">
                   <p>Gustavo Grillo</p>
                   <p>Instrutor/Founder</p>
                 </div>
@@ -129,7 +137,7 @@
 
               <div class="card-box">
                 <div class="informações-user">
-                <dir class="circle_user"></dir><div class="info_user">
+                <div class="circle_user"></div><div class="info_user">
                   <p>Gustavo Grillo</p>
                   <p>Instrutor/Founder</p>
                 </div>
@@ -142,5 +150,7 @@
             </div>
 
         </section>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
     </body>
 </html>
