@@ -360,7 +360,7 @@ section.contato .descrição_usuario{
 section.banner_principal header nav.mobile{
     display: none;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px){
     section.banner_principal{height:150vw;}
     section.banner_principal .opacidade{height: 150vw;}
     section.banner_principal header .logo{font-size: 4vw;width: 40%;margin-top: 7vw;}
