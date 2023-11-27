@@ -186,7 +186,7 @@ section.planos .planos-box .box h1{
 
 section.sobre{
     background-color: grey;
-    background-image:url('../img/bg1.jpg');
+    background-image:url('../img/bg2.avif');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 1%;
@@ -231,4 +231,127 @@ section.sobre .contein p{
 
 section.sobre .contein span{
     color: #2692ff;
+}
+
+
+
+section.contato{
+    width: 100%;
+    display: flex;
+}
+
+section.contato .formulario{
+    width: 50%;
+}
+
+section.contato .formulario .form-contato{
+    margin: 5% 0 0 5%;
+}
+
+section.contato .formulario .form-contato h1,section.contato .formulario .form-contato input,section.contato .formulario .form-contato textarea{
+    display: block;
+    margin: 4% 0;
+    width: 70%;
+    padding: 2% 0;
+    border: 2px solid rgb(200,200,200);
+    box-shadow: 0px 2px 5px rgba(000,000,000,0.2);
+}
+section.contato .formulario hr{
+    background-color: rgb(150,150,150);
+    margin: 0;
+    height: 2px;
+    width: 8vw;
+    border: none
+}
+section.contato .formulario .form-contato h1{
+
+    margin-top: -10px;
+    height: 15px;
+    border: none;
+    font-size: 2.2vw;
+    color: rgb(150,150,150);
+    box-shadow: none;
+}
+section.contato .formulario .form-contato textarea{
+    height: 10vw;
+    width: 75%;
+}
+
+section.contato .formulario .form-contato input[type=submit]{
+    width: 30%;
+    height: 3vw;
+    margin-top: 2%;
+    background-color: #2692ff;
+    color: white;
+    font-size: 1.1vw;
+    border: none;
+    border-radius: 30px;
+    cursor:pointer;
+
+}
+
+section.contato .cards{
+    width: 50%;
+    margin:1% 0 0 5%;
+
+}
+
+section.contato .double-cards{
+    width: 100%;
+    display: flex;
+
+}
+
+section.contato .cards hr{
+    background-color: rgb(150,150,150);
+    margin: 2% 0;
+    height: 2px;
+    width: 8vw;
+    border: none
+}
+section.contato .cards h1{
+
+    margin-top: -10px;
+    height: 15px;
+    border: none;
+    font-size: 2.2vw;
+    color: rgb(150,150,150);
+    box-shadow: none;
+}
+
+section.contato .cards .double-cards .card-box{
+    width: 50%;
+    height: 27vw;
+    margin: 5%;
+    background-color: rgb(240,240,240);
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(50,50,50,0.5)
+}
+
+section.contato .cards .double-cards .card-box:first-child{
+    margin-left: 0;
+    }
+
+section.contato .informações-user{
+    padding: 5%;
+    display: flex;
+    align-items:center;
+    font-size: 1.5vw;
+    color: rgb(100,100,100);
+    width: 80%;
+    margin: 0 5%;
+    border-bottom: 2px solid grey;
+}
+section.contato .informações-user .circle_user{
+    background-color: grey;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+    margin:2%;
+}
+
+section.contato .descrição_usuario{
+    color: rgb(70,70,70);
+    margin-top: 10%;
+    padding: 5%;
 }
