@@ -82,6 +82,13 @@ section.banner_principal header .icon{
     float: right;
 }
 
+section.banner_principal header .icon a{
+    color: white;
+}
+section.banner_principal header .icon a:hover{
+    color: rgba(255,255,255,0.5);
+}
+
 section.banner_principal .informações{
     position: relative;
     top: 20%;
@@ -252,7 +259,7 @@ section.contato .formulario .form-contato h1,section.contato .formulario .form-c
     display: block;
     margin: 4% 0;
     width: 70%;
-    padding: 2% 0;
+    padding: 2% 2%;
     border: 2px solid rgb(200,200,200);
     box-shadow: 0px 2px 5px rgba(000,000,000,0.2);
 }
@@ -265,7 +272,7 @@ section.contato .formulario hr{
 }
 section.contato .formulario .form-contato h1{
 
-    margin-top: -10px;
+    margin: -10px 0 0 -2.2%;
     height: 15px;
     border: none;
     font-size: 2.2vw;
@@ -347,11 +354,64 @@ section.contato .informações-user .circle_user{
     width: 4vw;
     height: 4vw;
     border-radius: 100%;
-    margin:2%;
+    margin:2% 4% 2% -4%;
 }
 
 section.contato .descrição_usuario{
     color: rgb(70,70,70);
     margin-top: 10%;
     padding: 5%;
+}
+
+section.banner_principal .header .mobile{
+    display: none;
+}
+@media screen and (max-width:600px){
+    section.banner_principal{height:150vw;}
+    section.banner_principal .opacidade{height: 150vw;}
+    section.banner_principal header .logo{font-size: 4vw;width: 40%;margin-top: 7vw;}
+    section.banner_principal header nav.desktop{display: none;}
+    section.banner_principal header{padding:5% 0 15% 0 ;overflow:visible;}
+    section.banner_principal header nav.mobile{width: 8%;height: 8vw;display: block;margin: 7% -8% 0 0;font-size: 7vw;}
+    section.banner_principal header nav.mobile i{user-select: none;}
+    section.banner_principal header nav.mobile ul{display: none;width: 50vw;height: 30vw;left: -47vw;top: 12vw;position: absolute;}
+    section.banner_principal header nav.mobile ul li{background-color: aliceblue;width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;
+    }
+    section.banner_principal .informações{
+        position: relative;
+        top: 20%;
+        left: 12%;
+        color: white;
+        z-index: 3;
+        width: 60%;
+        font-weight: 100;
+    }
+    
+    section.banner_principal .informações h1{
+    font-weight: lighter;
+    font-size: 2vw;
+    }
+    section.banner_principal .informações h1 span{
+        color: #2692ff;
+        }
+    section.banner_principal .informações p{
+        font-weight: lighter;
+        font-size: 1vw;
+        margin-top: 2%;
+        width: 85%;
+    }    
+    section.banner_principal .informações .botaoSaibaMais button{
+        width: 20%;
+        height: 3vw;
+        margin-top: 2%;
+        background-color: #2692ff;
+        color: white;
+        font-size: 1.1vw;
+        border: none;
+        border-radius: 30px;
+        cursor:pointer;
+    
+        }
+    
+    
 }
