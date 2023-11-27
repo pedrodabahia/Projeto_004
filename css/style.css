@@ -152,13 +152,7 @@ section.planos .planos-box{
     display: flex;
 }
 
-section.planos .planos-box .box{
-    background-color: rgb(255, 255, 255);
-    width: 20vw;
-    text-align: center;
-    margin: 3% auto;
-    box-shadow: 0.5px 2px 2px black;
-}
+
 
 section.planos .planos-box .box h2{
     background-color: #2692ff;
@@ -363,7 +357,7 @@ section.contato .descrição_usuario{
     padding: 5%;
 }
 
-section.banner_principal .header .mobile{
+section.banner_principal header nav.mobile{
     display: none;
 }
 @media screen and (max-width:600px){
@@ -375,43 +369,16 @@ section.banner_principal .header .mobile{
     section.banner_principal header nav.mobile{width: 8%;height: 8vw;display: block;margin: 7% -8% 0 0;font-size: 7vw;}
     section.banner_principal header nav.mobile i{user-select: none;}
     section.banner_principal header nav.mobile ul{display: none;width: 50vw;height: 30vw;left: -47vw;top: 12vw;position: absolute;}
-    section.banner_principal header nav.mobile ul li{background-color: aliceblue;width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;
-    }
-    section.banner_principal .informações{
-        position: relative;
-        top: 20%;
-        left: 12%;
-        color: white;
-        z-index: 3;
-        width: 60%;
-        font-weight: 100;
-    }
-    
-    section.banner_principal .informações h1{
-    font-weight: lighter;
-    font-size: 2vw;
-    }
-    section.banner_principal .informações h1 span{
-        color: #2692ff;
-        }
-    section.banner_principal .informações p{
-        font-weight: lighter;
-        font-size: 1vw;
-        margin-top: 2%;
-        width: 85%;
-    }    
-    section.banner_principal .informações .botaoSaibaMais button{
-        width: 20%;
-        height: 3vw;
-        margin-top: 2%;
-        background-color: #2692ff;
-        color: white;
-        font-size: 1.1vw;
-        border: none;
-        border-radius: 30px;
-        cursor:pointer;
-    
-        }
-    
+    section.banner_principal header nav.mobile ul li{background-color: aliceblue;width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;}
+    section.banner_principal .informações{width: 100vw;font-weight: 100;top: 10%;left: 10%;}
+    section.banner_principal .informações h1{font-size: 6vw;}
+    section.banner_principal .informações p{font-size: 2.5vw;width: 95%;}    
+    section.banner_principal .informações .botaoSaibaMais button{width: 40vw;height: 10vw;margin-top: 3%;font-size: 4vw;}
+    section.planos .planos_divisao{padding: 5vw 0;}
+    section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;}
+   
+    section.planos .planos-box .box{background-color: rgb(255, 255, 255);width: 80vw;margin: 3% auto;box-shadow: 0.5px 2px 2px black;}
+    section.planos .planos-box{display: block;}
+    section.planos .planos-box .box h1{font-size: 8vw;margin: 15% auto;padding-bottom: 5vw;}
     
 }
