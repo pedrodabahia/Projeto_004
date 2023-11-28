@@ -373,7 +373,7 @@ section.banner_principal header nav.mobile{
 @media screen and (max-width: 600px){
     section.banner_principal{height:150vw;}
     section.banner_principal .opacidade{height: 150vw;z-index: 1;}
-    section.banner_principal header .logo{font-size: 4vw;width: 40%;margin-top: 7vw;}
+    section.banner_principal header .logo{font-size: 4vw;width: 50%;margin-top: 7vw;}
     section.banner_principal header nav.desktop{display: none;}
     section.banner_principal header{padding:5% 0 15% 0 ;overflow:visible;}
 
