@@ -1,9 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 html,body{
-    height:100%;    
+    height:100%;
+    overflow: none;    
+    background-color: darkgreen
 }
 
 section.banner_principal{
@@ -152,6 +155,13 @@ section.planos .planos-box{
     display: flex;
 }
 
+ section.planos .planos-box .box{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    margin: 3% auto;
+    box-shadow: 0.5px 2px 2px black;
+}
+   
 
 
 section.planos .planos-box .box h2{
@@ -360,8 +370,8 @@ section.contato .descrição_usuario{
 section.banner_principal header nav.mobile{
     display: none;
 }
-@media screen and (max-width: 800px){
-    section.banner_principal{height:150vw;}
+@media screen and (max-width: 600px){
+    section.banner_principal{height:150vw;background-color: red}
     section.banner_principal .opacidade{height: 150vw;}
     section.banner_principal header .logo{font-size: 4vw;width: 40%;margin-top: 7vw;}
     section.banner_principal header nav.desktop{display: none;}
@@ -372,13 +382,40 @@ section.banner_principal header nav.mobile{
     section.banner_principal header nav.mobile ul li{background-color: aliceblue;width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;}
     section.banner_principal .informações{width: 100vw;font-weight: 100;top: 10%;left: 10%;}
     section.banner_principal .informações h1{font-size: 6vw;}
-    section.banner_principal .informações p{font-size: 2.5vw;width: 95%;}    
+    section.banner_principal .informações p{font-size: 2.5vw;width: 85%;}    
     section.banner_principal .informações .botaoSaibaMais button{width: 40vw;height: 10vw;margin-top: 3%;font-size: 4vw;}
-    section.planos .planos_divisao{padding: 5vw 0;}
+    section.planos .planos_divisao{padding: 5vw 0;background-color: blue}
+
     section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;}
-   
-    section.planos .planos-box .box{background-color: rgb(255, 255, 255);width: 80vw;margin: 3% auto;box-shadow: 0.5px 2px 2px black;}
+    section.planos .planos-box .box{width: 60vw;margin: 3% auto;}
     section.planos .planos-box{display: block;}
-    section.planos .planos-box .box h1{font-size: 8vw;margin: 15% auto;padding-bottom: 5vw;}
+    section.planos .planos-box .box h1{font-size: 8vw;margin: 15% auto;margin-top:8%;padding-bottom: 6vw;}
+    section.planos .planos-box .box h2{font-size: 7vw;}
+    section.planos .planos-box .box ul{font-size: 3.5vw}
     
+    section.sobre{background-color: pink}
+    section.sobre .contein h1{font-size: 5vw;}
+    section.sobre .contein p{margin: 3% 7.5%;text-align: justify;font-size: 1.7vw;width: 85%;}
+    section.contato .descrição_usuario{font-size: 1vw;}
+    section.contato{display: block;background-color: grey}
+    
+    section.contato .cards{
+    width: 70%;
+    margin:1% auto%;
+
+}
+section.contato .double-cards{
+    display: block;
+    width: 70%;
+
+}
+
+
+section.contato .cards .double-cards .card-box{
+    width: 50%;
+    height: 47vw;
+    margin: 25%;
+}
+
+
 }
