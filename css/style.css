@@ -1,7 +1,12 @@
+
+@font-face {
+    font-family: 'open sans';
+    src: url('../font/fonte_sans.ttf');
+}
 *{
     padding: 0;
     margin: 0;
-
+    font-family: 'open sans';
 }
 html,body{
     height:100%;
@@ -383,7 +388,7 @@ section.banner_principal header nav.mobile{
     section.banner_principal header nav.mobile ul li{BACKGROUND-COLOR:rgb(255, 255, 255);width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;}
     
     section.banner_principal .informações{width: 90vw;font-weight: 100;top: 25%;left: 10%;position: absolute;z-index: 1;}
-    section.banner_principal .informações h1{font-size: 5.7vw;}
+    section.banner_principal .informações h1{font-size: 6vw;}
     section.banner_principal .informações p{font-size: 2.5vw;width: 85%;}    
     section.banner_principal .informações .botaoSaibaMais button{width: 40vw;height: 10vw;margin-top: 3%;font-size: 4vw;}
     
@@ -403,12 +408,12 @@ section.banner_principal header nav.mobile{
     section.contato{display: block;}
     section.contato .cards{width: 70%;margin:1% 5%;}
     section.contato .double-cards{display: block;width: 100%;padding:2%;}
-    section.contato .cards .double-cards .card-box,section.contato .cards .double-cards .card-box:first-child{width: 100%;height: 77vw;margin: 25% 12%;} 
+    section.contato .cards .double-cards .card-box,section.contato .cards .double-cards .card-box:first-child{width: 100%;height: 77vw;margin: 25% 15%;} 
     section.contato .descrição_usuario{font-size: 3vw;}
 
     section.contato .formulario{width: 100%;}
     section.contato .formulario .form-contato h1,section.contato .formulario .form-contato input,section.contato .formulario .form-contato textarea{margin: 4% 0;width: 75%;padding: 4% 3%;font-size: 3vw;}
-    section.contato .formulario hr{margin-left: 1%;height: 3px;width: 15vw;border: none}
+    section.contato .formulario hr{margin-left: 1%;height: 2px;width: 15vw;border: none}
     section.contato .formulario .form-contato h1{margin: -10px 0 0 -2.2%;font-size: 6vw;}
     section.contato .formulario .form-contato textarea{height: 10vw;width: 75%;}
     section.contato .formulario .form-contato input[type=submit]{width: 35%;height: 10vw;padding-top: 2.6%;font-size: 3.5vw;}
