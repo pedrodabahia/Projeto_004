@@ -390,7 +390,7 @@ section.banner_principal header nav.mobile{
     section.banner_principal .informações{width: 90vw;font-weight: 100;top: 15%;left: 10%;position: absolute;z-index: 1;}
     section.banner_principal .informações h1{font-size: 6vw;}
     section.banner_principal .informações p{font-size: 2.5vw;width: 85%;}    
-    section.banner_principal .informações .botaoSaibaMais button{width: 40vw;height: 10vw;margin-top: 3%;font-size: 4vw;}
+    section.banner_principal .informações .botaoSaibaMais button{width: 30vw;height: 7vw;margin-top: 3%;font-size: 3.3vw;}
     
     section.planos .planos_divisao{padding: 4vw 0;margin-bottom:2%}
     section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;padding-top: 1.5vw;}
@@ -420,6 +420,6 @@ section.banner_principal header nav.mobile{
 
     section.contato .cards hr{height: 4px;width: 15vw;}
     section.contato .cards h1{height: 15px;font-size: 6vw;margin-top: 3%;}
-    section.contato .informações-user{font-size: 4vw;margin: 0 8%;}
+    section.contato .informações-user{font-size: 4vw;margin: 0 6%;}
     section.contato .informações-user .circle_user{width: 14vw;height: 14vw;border-radius: 100%;margin:2% 5% 2% -4%;}
 }
