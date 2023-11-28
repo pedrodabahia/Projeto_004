@@ -387,7 +387,7 @@ section.banner_principal header nav.mobile{
     section.banner_principal .informações p{font-size: 2.5vw;width: 85%;}    
     section.banner_principal .informações .botaoSaibaMais button{width: 40vw;height: 10vw;margin-top: 3%;font-size: 4vw;}
     
-    section.planos .planos_divisao{padding: 4vw 0;}
+    section.planos .planos_divisao{padding: 4vw 0;margin-bottom:2%}
     section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;padding-top: 1.5vw;}
     section.planos .planos-box .box{width: 70vw;margin: 3% auto;}
     section.planos .planos-box{display: block;}
@@ -397,7 +397,7 @@ section.banner_principal header nav.mobile{
     
     section.sobre{height: 140vw;}
     section.sobre .contein h1{font-size: 7vw;}
-    section.sobre .contein p{margin: 7% 1.5%;text-align: justify;font-size: 25vw;width: 97%;}
+    section.sobre .contein p{margin: 7% 1.5%;text-align: justify;font-size: 3vw;width: 97%;}
     
     
     section.contato{display: block;}
