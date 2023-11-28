@@ -144,6 +144,7 @@ section.planos .planos_divisao{
     padding: 1.2vw 0;
     text-align: center;
     background-color: rgb(224, 224, 224);
+
 }
 
 section.planos .planos_divisao h1{
@@ -206,7 +207,7 @@ section.sobre{
     background-repeat: no-repeat;
     padding-top: 1%;
     text-align: center;
-    height:70%;
+    height:50vw;
     position: relative
 }
 
@@ -392,7 +393,7 @@ section.banner_principal header nav.mobile{
     section.banner_principal .informações p{font-size: 2.5vw;width: 85%;}    
     section.banner_principal .informações .botaoSaibaMais button{width: 30vw;height: 7vw;margin-top: 3%;font-size: 3.3vw;}
     
-    section.planos .planos_divisao{padding: 4vw 0;margin-bottom:2%}
+    section.planos .planos_divisao{padding: 3.5vw 0;margin-bottom:2%}
     section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;padding-top: 1.5vw;}
     section.planos .planos-box .box{width: 70vw;margin: 3% auto;}
     section.planos .planos-box{display: block;}
