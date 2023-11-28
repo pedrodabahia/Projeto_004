@@ -6,7 +6,6 @@
 html,body{
     height:100%;
     overflow: none;    
-    background-color: darkgreen
 }
 
 section.banner_principal{
@@ -159,7 +158,7 @@ section.planos .planos-box{
     background-color: rgb(255, 255, 255);
     width: 20vw;
     margin: 3% auto;
-    box-shadow: 0.5px 2px 2px black;
+    box-shadow: 0.5px 2px 5px rgba(000, 000, 000, 0.5);
 }
    
 
@@ -365,57 +364,57 @@ section.contato .descrição_usuario{
     color: rgb(70,70,70);
     margin-top: 10%;
     padding: 5%;
+    font-size: 1.2vw;
 }
 
 section.banner_principal header nav.mobile{
     display: none;
 }
 @media screen and (max-width: 600px){
-    section.banner_principal{height:150vw;background-color: red}
-    section.banner_principal .opacidade{height: 150vw;}
+    section.banner_principal{height:150vw;}
+    section.banner_principal .opacidade{height: 150vw;z-index: 1;}
     section.banner_principal header .logo{font-size: 4vw;width: 40%;margin-top: 7vw;}
     section.banner_principal header nav.desktop{display: none;}
     section.banner_principal header{padding:5% 0 15% 0 ;overflow:visible;}
+
     section.banner_principal header nav.mobile{width: 8%;height: 8vw;display: block;margin: 7% -8% 0 0;font-size: 7vw;}
     section.banner_principal header nav.mobile i{user-select: none;}
-    section.banner_principal header nav.mobile ul{display: none;width: 50vw;height: 30vw;left: -47vw;top: 12vw;position: absolute;}
-    section.banner_principal header nav.mobile ul li{background-color: aliceblue;width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;}
-    section.banner_principal .informações{width: 100vw;font-weight: 100;top: 10%;left: 10%;}
+    section.banner_principal header nav.mobile ul{display: none;width: 80vw;height: 30vw;left: -78vw;top: 12vw;position: absolute;z-index: 2;}
+    section.banner_principal header nav.mobile ul li{BACKGROUND-COLOR:rgb(255, 255, 255);width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;}
+    
+    section.banner_principal .informações{width: 90vw;font-weight: 100;top: 25%;left: 10%;position: absolute;z-index: 1;}
     section.banner_principal .informações h1{font-size: 6vw;}
     section.banner_principal .informações p{font-size: 2.5vw;width: 85%;}    
     section.banner_principal .informações .botaoSaibaMais button{width: 40vw;height: 10vw;margin-top: 3%;font-size: 4vw;}
-    section.planos .planos_divisao{padding: 5vw 0;background-color: blue}
-
-    section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;}
-    section.planos .planos-box .box{width: 60vw;margin: 3% auto;}
+    
+    section.planos .planos_divisao{padding: 4vw 0;}
+    section.planos .planos_divisao h1{font-size: 4vw;font-weight: lighter;width: 60vw;padding-top: 1.5vw;}
+    section.planos .planos-box .box{width: 70vw;margin: 3% auto;}
     section.planos .planos-box{display: block;}
     section.planos .planos-box .box h1{font-size: 8vw;margin: 15% auto;margin-top:8%;padding-bottom: 6vw;}
-    section.planos .planos-box .box h2{font-size: 7vw;}
+    section.planos .planos-box .box h2{font-size: 6vw;}
     section.planos .planos-box .box ul{font-size: 3.5vw}
     
-    section.sobre{background-color: pink}
-    section.sobre .contein h1{font-size: 5vw;}
-    section.sobre .contein p{margin: 3% 7.5%;text-align: justify;font-size: 1.7vw;width: 85%;}
-    section.contato .descrição_usuario{font-size: 1vw;}
-    section.contato{display: block;background-color: grey}
+    section.sobre{height: 140vw;}
+    section.sobre .contein h1{font-size: 7vw;}
+    section.sobre .contein p{margin: 7% 2.5%;text-align: justify;font-size: 2.7vw;width: 95%;}
     
-    section.contato .cards{
-    width: 70%;
-    margin:1% auto%;
+    
+    section.contato{display: block;}
+    section.contato .cards{width: 70%;margin:1% 5%;}
+    section.contato .double-cards{display: block;width: 100%;}
+    section.contato .cards .double-cards .card-box,section.contato .cards .double-cards .card-box:first-child{width: 100%;height: 77vw;margin: 25% 15%;} 
+    section.contato .descrição_usuario{font-size: 3.5vw;}
 
-}
-section.contato .double-cards{
-    display: block;
-    width: 70%;
+    section.contato .formulario{width: 100%;}
+    section.contato .formulario .form-contato h1,section.contato .formulario .form-contato input,section.contato .formulario .form-contato textarea{margin: 4% 0;width: 75%;padding: 4% 3%;font-size: 3vw;}
+    section.contato .formulario hr{margin-left: 1%;height: 2px;width: 15vw;border: none}
+    section.contato .formulario .form-contato h1{margin: -10px 0 0 -2.2%;font-size: 6vw;}
+    section.contato .formulario .form-contato textarea{height: 10vw;width: 75%;}
+    section.contato .formulario .form-contato input[type=submit]{width: 35%;height: 10vw;padding-top: 2.6%;font-size: 3.5vw;}
 
-}
-
-
-section.contato .cards .double-cards .card-box{
-    width: 50%;
-    height: 47vw;
-    margin: 25%;
-}
-
-
+    section.contato .cards hr{height: 4px;width: 15vw;}
+    section.contato .cards h1{height: 15px;font-size: 6vw;margin-top: 3%;}
+    section.contato .informações-user{font-size: 4vw;margin: 0 8%;}
+    section.contato .informações-user .circle_user{width: 14vw;height: 14vw;border-radius: 100%;margin:2% 5% 2% -4%;}
 }
