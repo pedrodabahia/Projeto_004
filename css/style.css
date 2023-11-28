@@ -413,7 +413,7 @@ section.banner_principal header nav.mobile{
 
     section.contato .formulario{width: 100%;}
     section.contato .formulario .form-contato h1,section.contato .formulario .form-contato input,section.contato .formulario .form-contato textarea{margin: 4% 0;width: 75%;padding: 4% 3%;font-size: 3vw;}
-    section.contato .formulario hr{margin-left: 1%;height: 2px;width: 15vw;border: none}
+    section.contato .formulario hr{margin-left: 1%;height: 3px;width: 15vw;border: none}
     section.contato .formulario .form-contato h1{margin: -10px 0 0 -2.2%;font-size: 6vw;}
     section.contato .formulario .form-contato textarea{height: 10vw;width: 75%;}
     section.contato .formulario .form-contato input[type=submit]{width: 35%;height: 10vw;padding-top: 2.6%;font-size: 3.5vw;}
