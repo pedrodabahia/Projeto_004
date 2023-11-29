@@ -383,8 +383,8 @@ section.banner_principal header nav.mobile{
     section.banner_principal header nav.desktop{display: none;}
     section.banner_principal header{padding:5% 0 15% 0 ;overflow:visible;}
 
-    section.banner_principal header nav.mobile{width: 5%;height: 5vw;display: block;margin: 7% -8% 0 0;font-size: 7vw;}
-    section.banner_principal header nav.mobile i{user-select: none;}
+    section.banner_principal header nav.mobile{width: 8%;height: 8vw;display: block;margin: 7% -8% 0 0;font-size: 7vw;}
+    section.banner_principal header nav.mobile i{user-select: none;font-size:6vw;margin-left:7vw;}
     section.banner_principal header nav.mobile ul{display: none;width: 80vw;height: 30vw;left: -78vw;top: 12vw;position: absolute;z-index: 2;}
     section.banner_principal header nav.mobile ul li{BACKGROUND-COLOR:rgb(255, 255, 255);width: 100%;margin: 0.3vw 0;padding: 2.5vw 0;text-align: center;font-size: 5vw;font-weight: 700;color: #2692ff;}
     
